@@ -77,7 +77,17 @@ This workflow is required to be run under specific environment. We choose singul
 
 ## II.4 Actions
 
-Here we demonstrate how to run this workflow on the server provided by BIOF501A class. So we assume that both nextflow and singularity are installed. Please go to the provided [workspace](https://class.cidgoh.ca/user/yuyt1998/lab) for further actions.
+Here we demonstrate how to run this workflow on the server provided by BIOF501A class. So we assume that both nextflow and singularity are installed. Please go to the provided [workspace](https://class.cidgoh.ca/user/yuyt1998/lab) for further actions. Login credential:
+
+-   username: yuyt1998
+
+-   password: 123456Qwe
+
+After login, you will see the following page:
+
+![](images/paste-6AABD033.png)
+
+Now you are on the correct way to success! Run steps below to get workflow started:
 
 -   Start a new terminal window, run the following command to enter the `nextflow` folder:
 
