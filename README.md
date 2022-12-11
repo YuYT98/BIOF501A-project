@@ -49,20 +49,17 @@ There are 4 processes in this workflow:
 
 1.  Cleaning
 
-```{=html}
-<!-- -->
-```
-    The first process is data cleaning, including removing all subjects with Null values, removing outliers. The input of this process is the "rawdata.csv" in `data/` folder. Details regarding rawdata will be discussed in Usage section. The output of this process is "processed_data.csv" in which contains all data after data cleaning.
+    The first process is data cleaning, including removing all subjects with Null values, removing outliers. The input of this process is the "rawdata.csv" in \`data/\` folder. Details regarding rawdata will be discussed in Usage section. The output of this process is "processed_data.csv" in which contains all data after data cleaning.
 
-1.  Centering
+2.  Centering
 
     The second process is data centering. This is to decrease the discretion of all data by subtracting the mean value of each morphometric feature. The input of this process is processed data, i.e. the data after cleaning which is the output of process 1. The output of this process is "data_training_centered.csv".
 
-2.  Training
+3.  Training
 
     The third process is model training. It uses the training data to generate its own multivariate fractional polynomial model. The input of this process is "data_training_centered.csv" from process 3. The output of this process is "mfpModel_subcorticalvolume_list.rds".
 
-3.  Applying
+4.  Applying
 
     The forth and also the last process is applying unseen data to trained models then get predicted results. The input of this process has two components: (1) "unseenData.csv" from `data/` folder (2) "mfpModel_subcorticalvolume_list.rds" from process 3.
 
