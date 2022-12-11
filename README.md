@@ -89,7 +89,7 @@ After login, you will see the following page:
 
 Now you are on the correct way to success! Run steps below to get workflow started:
 
--   Start a new terminal window, run the following command to enter the `nextflow` folder:
+-   Start a new terminal window from the Launcher in JupyterLab, run the following command to enter the `nextflow` folder:
 
     `cd NEXTFLOW`
 
